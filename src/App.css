@@ -1,0 +1,59 @@
+.App{
+    margin-top: 130px;
+}
+
+.message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+}
+.container {
+   background-image: url('./assets/images/her.jpg');
+    background-size: cover;
+    height: 100;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+  }
+  
+  .border {
+    background-color: rgba(3, 3, 3, 0.9); /* Semi-transparent white background for the form */
+    padding: 20px;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
